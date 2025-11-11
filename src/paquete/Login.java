@@ -9,5 +9,27 @@ package paquete;
  * @author L33204
  */
 public class Login {
+    private String user, pass;
+
+    public Login(String user, String pass) {
+        this.user = user;
+        this.pass = pass;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
     
 }
